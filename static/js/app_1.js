@@ -20,7 +20,7 @@ function buildTable(data) {
         cell.text(val);
         }
       );
-    });
+    })};
 
 
 function handleClick() {
@@ -30,16 +30,15 @@ function handleClick() {
         filteredData = filteredData.filter(row => row.datetime === date);
     };
 
-
+    // Rebuild the table using the filtered data
+    // @NOTE: If no date was entered, then filteredData will
+    // just be the original tableData.
+    buildTable(filteredData);
     
   };
 
 
 
-// Rebuild the table using the filtered data
-// @NOTE: If no date was entered, then filteredData will
-// just be the original tableData.
-buildTable(filteredData);
 
 
 // Attach an event to listen for the form button
