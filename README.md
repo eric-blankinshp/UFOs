@@ -23,7 +23,7 @@ The request from a client was to display a table organizing UFO data stored as a
 
 
 ### How the filters appear after being used: 
-By typing in the suggested placeholder elements as the filters, the result returns 2 matches.  Make sure to type everything in lower case letters and do not have spaces at the end of the text.  Click off the input box or press enter to initiate the filter.  To reset the filter criteria, click the UFO Sightings at the top left of the website. 
+Make sure to type everything in lower case letters and do not have spaces at the end of the text.  Click off the input box or press enter to initiate the filter.  To reset the filter criteria, click the UFO Sightings at the top left of the website. 
 
 
 ![Filters_Used](https://user-images.githubusercontent.com/103863575/184571412-9b99431c-d659-4188-ba3a-e6756ea9f420.png)
